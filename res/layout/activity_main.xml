@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+ 
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnQoui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:text="Quoi?" />
+
+ <Button
+     android:id="@+id/btnSelfSubActivite"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/editText1"
+     android:layout_below="@+id/btnQoui"
+     android:text="Lancer sous activité par la même classe" />
+
+  <Button
+     android:id="@+id/btnGotoGoogle"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/editText1"
+     android:layout_below="@+id/btnSelfSubActivite"
+     android:text="www.google.com" />
+   <Button
+     android:id="@+id/btnCallUrgence"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/editText1"
+     android:layout_below="@+id/btnGotoGoogle"
+     android:text="Appel urgence" />
+      <Button
+     android:id="@+id/btnWifiSetting"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/editText1"
+     android:layout_below="@+id/btnCallUrgence"
+     android:text="Parametres Wifi" />
+       <Button
+     android:id="@+id/btnAppSetting"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/editText1"
+     android:layout_below="@+id/btnWifiSetting"
+     android:text="Parametres applications" />
+        <Button
+     android:id="@+id/btnPlanifActivity"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/editText1"
+     android:layout_below="@+id/btnAppSetting"
+     android:text="Activités planifiées" />
+  
+</RelativeLayout>
+

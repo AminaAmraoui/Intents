@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LesActivites</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Bonjour les activités!</string>
+    <string name="title_activity_planified_activities">PlanifiedActivities</string>
+    <string name="hello_planified_act">Bonjour les activités planifiées</string>
+
+</resources>
